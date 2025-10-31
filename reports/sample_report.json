@@ -1,0 +1,87 @@
+{
+  "shape": [
+    10,
+    5
+  ],
+  "columns": [
+    "id",
+    "age",
+    "income",
+    "city",
+    "purchased"
+  ],
+  "dtypes": {
+    "id": "int64",
+    "age": "int64",
+    "income": "int64",
+    "city": "object",
+    "purchased": "object"
+  },
+  "missing": {
+    "id": 0,
+    "age": 0,
+    "income": 0,
+    "city": 0,
+    "purchased": 0
+  },
+  "numeric_summary": {
+    "id": {
+      "count": 10.0,
+      "mean": 5.5,
+      "std": 3.0276503540974917,
+      "min": 1.0,
+      "25%": 3.25,
+      "50%": 5.5,
+      "75%": 7.75,
+      "max": 10.0
+    },
+    "age": {
+      "count": 10.0,
+      "mean": 34.1,
+      "std": 9.12201244852862,
+      "min": 22.0,
+      "25%": 27.25,
+      "50%": 33.0,
+      "75%": 39.5,
+      "max": 50.0
+    },
+    "income": {
+      "count": 10.0,
+      "mean": 75800.0,
+      "std": 29001.14940250932,
+      "min": 32000.0,
+      "25%": 52750.0,
+      "50%": 77000.0,
+      "75%": 95500.0,
+      "max": 120000.0
+    }
+  },
+  "categorical_top": {
+    "city": {
+      "New York": 4,
+      "Los Angeles": 3,
+      "Chicago": 3
+    },
+    "purchased": {
+      "yes": 5,
+      "no": 5
+    }
+  },
+  "correlation": {
+    "id": {
+      "id": 1.0,
+      "age": 0.0583,
+      "income": -0.0481
+    },
+    "age": {
+      "id": 0.0583,
+      "age": 1.0,
+      "income": 0.8128
+    },
+    "income": {
+      "id": -0.0481,
+      "age": 0.8128,
+      "income": 1.0
+    }
+  }
+}

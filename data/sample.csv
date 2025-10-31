@@ -1,0 +1,11 @@
+id,age,income,city,purchased
+1,25,50000,New York,yes
+2,40,82000,Los Angeles,no
+3,35,120000,Chicago,yes
+4,28,61000,New York,no
+5,50,98000,Chicago,yes
+6,22,32000,Los Angeles,no
+7,45,110000,New York,yes
+8,31,72000,Chicago,no
+9,27,45000,Los Angeles,no
+10,38,88000,New York,yes
